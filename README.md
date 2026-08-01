@@ -26,3 +26,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn nbformat nbclient nbcon
 ## Tech
 
 Python, scikit-learn, pandas, matplotlib, seaborn, Jupyter Notebooks
+
+## By 
+Akash Naickar
