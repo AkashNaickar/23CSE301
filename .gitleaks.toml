@@ -1,0 +1,15 @@
+# A full virtualenv was committed in the root commit (499d2fe2) and later
+# removed; the blobs remain in history (the pack is ~144 MB). gitleaks flags
+# generic API keys and private keys inside vendored third-party packages, which
+# are false positives and not first-party secrets. The working tree is clean, so
+# this allowlist only suppresses the historical vendored-dependency noise.
+title = "23CSE301 gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Ignore the historically committed .venv vendored dependencies"
+paths = [
+  '''(^|/)\.venv/''',
+]
