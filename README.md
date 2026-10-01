@@ -136,8 +136,14 @@ flowchart LR
 
 ## Contributing
 
-Issues and PRs are welcome. Keep notebooks runnable from a clean checkout and
-make sure `python scripts/validate_notebooks.py` passes before opening a PR.
+Issues and PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the
+branch naming, notebook conventions, and test commands. In short: keep notebooks
+runnable from a clean checkout and make sure both
+`python scripts/validate_notebooks.py` and `python scripts/run_notebooks.py`
+pass before opening a PR.
+
+Participation is covered by the [Code of Conduct](CODE_OF_CONDUCT.md). Report
+security issues privately as described in [SECURITY.md](SECURITY.md).
 
 ## License
 
