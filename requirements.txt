@@ -1,0 +1,16 @@
+# Pinned with Python 3.12; versions match what CI installs and what the
+# headless notebook run in scripts/run_notebooks.py was verified against.
+
+# Data / ML stack used by the labs
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Notebook tooling used by scripts/ and CI
+nbformat==5.10.4
+nbclient==0.10.0
+nbconvert==7.16.4
+jupyter_client==8.6.3
+ipykernel==6.29.5
